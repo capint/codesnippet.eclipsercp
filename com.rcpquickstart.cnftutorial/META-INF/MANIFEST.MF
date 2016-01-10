@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CNF Tutorial Plug-in
+Bundle-SymbolicName: com.rcpquickstart.cnftutorial; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.rcpquickstart.cnftutorial.Activator
+Bundle-Vendor: RCP Quickstart
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.navigator
+Eclipse-LazyStart: true
